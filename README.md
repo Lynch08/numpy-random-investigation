@@ -20,6 +20,8 @@ This GitHub repository documents my initial research, project progress (git vers
 ##### Assignment objectives
 The assignment concerns the numpy.random package, a part of NumPy library for Python.
 
+See the Assignment Instructions [here](./ProgDA_Assignment.pdf)
+
 The primary objective are as follows:
 
  - To explain the overall purpose of the package.
