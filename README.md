@@ -9,8 +9,7 @@ Lecturer: Dr Brian McGinley
 Author: Enda Lyncg
 Github: Lynch08
 GMIT Email: G003987951@gmit.ie
-Personal: E.Lynch@Kostal.com
-
+Personal: E.Lynch@Kostal.comcd n
 ##### Background
 This is my assignment project to Programming for Data Analysis module, Galway-Mayo Institute of Technology, 2021.
 
