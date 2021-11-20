@@ -92,7 +92,7 @@ If you wish to view the notebook in static (uneditable) format click here:
         - [Seaborn](https://seaborn.pydata.org/)
         
 
-**Not required but helpful**
+**Not required but helpful**  
 cmder - this is a command line emulator that in my opinion is easier to use and cleaner than the windows cmd window. [Download Cmder Here](https://cmder.net/)
 
 
@@ -109,7 +109,7 @@ Python is an interpreted, object-oriented, high-level programming language with 
  
  - SciPy: SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
 
- - The assignment has been carried out on Numpy version 1.20.1 ( last updated on 20-11-2021).
+ - The assignment has been carried out using Numpy version 1.20.1 ( last updated on 20-11-2021).
  
  
 ### Notebook Structure
@@ -124,21 +124,21 @@ Finally I cite the sources I used to put the notebook together.
 
 ##### See the Table Of Contents below
 
-**1. What is Numpy**
-    - 1.1 Arrays
-    - 1.2 Popular-uses-for-Numpy  
+**1. What is Numpy**  
+    - 1.1 Arrays  
+    - 1.2 Popular-uses-for-Numpy   
     
-**2. A Brief History of Numpy**
+**2. A Brief History of Numpy**  
 
-**3. Installing NumPy**
+**3. Installing NumPy**  
     - 3.1 Importing Libraries and NumPy version check  
     
-**4. Simple Random Data**
-    - 4.1 Random Sampling is really pseudo random!!!!  
+**4. Simple Random Data**  
+    - 4.1 Random Sampling is really pseudo random!!!!    
     
-**5. Generating "Random" Data**
-    - 5.1 numpy.random.rand
-         - 5.1.1 Visualisation of rand using pyplot (uniform distribution)
+**5. Generating "Random" Data**  
+    - 5.1 numpy.random.rand  
+         - 5.1.1 Visualisation of rand using pyplot (uniform distribution)  
     - 5.2 numpy.random.randn
         - 5.2.1 Visualisation of randn using pyplot (normal distribution)
     - 5.3 numpy.random.randint
