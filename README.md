@@ -16,6 +16,16 @@ This is my assignment project for the Programming for Data Analysis module, Galw
 
 This GitHub repository documents my initial research, project progress (git version control) and findings.
 
+##### Github Repository
+
+**URL:** https://github.com/Lynch08/numpy-random-investigation  
+
+The repository contains:
+ - 1 jupyter notebook (numpy-random.ipynb) that holds the explanation, code, visuals and citeations for the assignment.
+ - The Assignment details in PDF form from Dr Brian McGinley 
+ - A requirments.txt file that contains all of the dependancies required to run the assignment in the same environment
+ - An Images folder where I have stored some PNG files to display in the notebook
+ - A readme file explaining the objectives, outcomes and instructions on how to view the notebook in both editable and static format.
  
 ### Assignment Objectives  
 The assignment details the numpy.random package, a part of NumPy library for Python.  
@@ -51,11 +61,8 @@ The assignment has been done within the Jupyter Notebook numpy-random.ipynb, sto
 
 In the notebook I have conducted the research and described the assignment progress. It is illustrated the applied concepts and methods together with relevant code snippets. The notebook includes also the calculated outputs and plots with accompanied description. Finally, inside the notebook I have included also references to sources being consulted for this assignment.
 
-For viewing the notebook online, it is recommended to use Jupyter Notebooks viewer, nbviewer. Paste the link to the notebook to be inspected into provided field.
 
-
-
-### View Notebook in Static Format
+### View Notebook in Static Format(Online)
 
 If you wish to view the notebook in static (uneditable) format click here:  
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Lynch08/numpy-random-investigation/blob/main/numpy-random.ipynb)
@@ -81,6 +88,10 @@ If you wish to view the notebook in static (uneditable) format click here:
  - When you have finished viewing the jupyter notebook close the web browser and return to the command line. Press Ctrl + C on the command line to kill the program.
 
 ### Dependancies 
+
+I have a requirements.txt file that you can use to install all of the dependancies required to run the notebook in the exact same environment - however below are the main dependancies if you would like to do that manually. After cloning the repository navigate to the folder using the command prompt and use the ```pip install``` command if you want to use the requirments.txt file.
+See this video for full instructions on how to install: https://www.youtube.com/watch?v=mBcmdcmZXJg 
+
 
 **Required**
 - Download Python environment - I recommend ([Anaconda](https://www.anaconda.com/products/individual)) 
@@ -114,7 +125,7 @@ Python is an interpreted, object-oriented, high-level programming language with 
  
 ### Notebook Structure
  
-The nootbook is broken down into 9 sections.  
+The notebook is broken down into 9 sections.  
 In the first two sections I go through a brief explaination of what I understand the numpy library to be and its history.  
 Then I explain how to install Numpy (once the dependencies above have been met) and link to the documentation if required.  
 I then dive into the funtionality and tools in the library. First looking at what random data is and how to generate different types.  
