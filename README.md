@@ -124,55 +124,55 @@ Finally I cite the sources I used to put the notebook together.
 
 ##### See the Table Of Contents below
 
-**1. What is Numpy**  
+1. What is Numpy
     - 1.1 Arrays  
     - 1.2 Popular-uses-for-Numpy   
     
-**2. A Brief History of Numpy**  
+2. A Brief History of Numpy 
 
-**3. Installing NumPy**  
+3. Installing NumPy
     - 3.1 Importing Libraries and NumPy version check  
     
-**4. Simple Random Data**  
+4. Simple Random Data  
     - 4.1 Random Sampling is really pseudo random!!!!    
     
-**5. Generating "Random" Data**  
+5. Generating "Random" Data  
     - 5.1 numpy.random.rand  
          - 5.1.1 Visualisation of rand using pyplot (uniform distribution)  
-    - 5.2 numpy.random.randn
-        - 5.2.1 Visualisation of randn using pyplot (normal distribution)
-    - 5.3 numpy.random.randint
-    - 5.4 numpy.random.generator.choice
-        - 5.4.1 Assigning Probability
-    - 5.5 numpy.random.RandomState.bytes
-    - 5.6 numpy.random.Generator.integers - and a simple plot  
+    - 5.2 numpy.random.randn  
+        - 5.2.1 Visualisation of randn using pyplot (normal distribution)  
+    - 5.3 numpy.random.randint  
+    - 5.4 numpy.random.generator.choice  
+        - 5.4.1 Assigning Probability  
+    - 5.5 numpy.random.RandomState.bytes  
+    - 5.6 numpy.random.Generator.integers - and a simple plot   
     
-**6. Permutations**
-    - 6.1 Function random.shuffle
-        - 6.1.1 Using shuffle with a multi dimensional array
-    - 6.2 Function random.permutation  
+6. Permutations 
+    - 6.1 Function random.shuffle  
+        - 6.1.1 Using shuffle with a multi dimensional array  
+    - 6.2 Function random.permutation   
     
-**7. Distributions**
-    - 7.1 Uniform Distribution
-        - 7.1.1 Visualising Uniform Distributions
-    - 7.2 Binomial Distribution
-        - 7.2.1 What is a Binomial Distribution? Real Life Examples
-        - 7.2.2 Visualisation of Binomial Distribution
-        - 7.2.3 Binomal vs Normal Distribution
-    - 7.3 The Poisson Distribution
-        - 7.3.1 Assumptions of the Poisson Distribution
-        - 7.3.2 Probability Mass Function (PMF)
-        - 7.3.3 Poisson distribution in Numpy
-        - 7.3.4 Visualisation of Poisson Distribution
-        - 7.3.5 Normal Distribution vs Poisson Distribution
-        - 7.3.6 Poisson Distribution vs Binomial Distribution
-    - 7.4 Exponential Distribution
-        - 7.4.1 Visualisation of Exponential Distribution
-    - 7.5 Hypergeometric Distribution  
+7. Distributions
+    - 7.1 Uniform Distribution  
+        - 7.1.1 Visualising Uniform Distributions  
+    - 7.2 Binomial Distribution  
+        - 7.2.1 What is a Binomial Distribution? Real Life Examples  
+        - 7.2.2 Visualisation of Binomial Distribution  
+        - 7.2.3 Binomal vs Normal Distribution  
+    - 7.3 The Poisson Distribution  
+        - 7.3.1 Assumptions of the Poisson Distribution  
+        - 7.3.2 Probability Mass Function (PMF)  
+        - 7.3.3 Poisson distribution in Numpy  
+        - 7.3.4 Visualisation of Poisson Distribution  
+        - 7.3.5 Normal Distribution vs Poisson Distribution  
+        - 7.3.6 Poisson Distribution vs Binomial Distribution  
+    - 7.4 Exponential Distribution  
+        - 7.4.1 Visualisation of Exponential Distribution  
+    - 7.5 Hypergeometric Distribution    
     
-**8. Seed**
-    - 8.1 Random or Pseudo Random??
-    - 8.2 Why would we need to "SEED" data from an RNG???
-    - 8.3 Using the Seed
+8. Seed 
+    - 8.1 Random or Pseudo Random??  
+    - 8.2 Why would we need to "SEED" data from an RNG???  
+    - 8.3 Using the Seed  
 
-**9. Citations**
+9. Citations 
