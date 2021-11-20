@@ -6,14 +6,14 @@ Assignment for Programming for Data Analysis, GMIT 2021
 
 Lecturer: Dr Brian McGinley
 
-Author: Enda Lyncg
-Github: Lynch08
-GMIT Email: G003987951@gmit.ie
-Personal: E.Lynch@Kostal.comcd n
+**Author:** Enda Lyncg
+**Github Username:** Lynch08
+**GMIT Email:** G003987951@gmit.ie
+**Personal Email:** E.Lynch@Kostal.comcd n
 ##### Background
 This is my assignment project to Programming for Data Analysis module, Galway-Mayo Institute of Technology, 2021.
 
-This GitHub repository documents my initial research, project progress (git version control) and findings. As it is also a learning exercise for me, I have made attempt to comment various functionalities also for my future reference.
+This GitHub repository documents my initial research, project progress (git version control) and findings.
 
 
 ##### Assignment objectives
