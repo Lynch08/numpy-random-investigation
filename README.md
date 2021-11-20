@@ -2,22 +2,23 @@
 **Investigation of the numpy.random package**
 
 
-Assignment for Programming for Data Analysis, GMIT 2021
+**Assignment:** Programming for Data Analysis, GMIT 2021  
 
-Lecturer: Dr Brian McGinley
+**Lecturer:** Dr Brian McGinley  
 
-**Author:** Enda Lyncg
-**Github Username:** Lynch08
-**GMIT Email:** G003987951@gmit.ie
-**Personal Email:** E.Lynch@Kostal.com
-##### Background
-This is my assignment project for the Programming for Data Analysis module, Galway-Mayo Institute of Technology, 2021.
+**Author:** Enda Lynch   
+**Github Username:** Lynch08  
+**GMIT Email:** G003987951@gmit.ie  
+**Personal Email:** E.Lynch@Kostal.com  
+
+##### Background   
+This is my assignment project for the Programming for Data Analysis module, Galway-Mayo Institute of Technology, 2021.  
 
 This GitHub repository documents my initial research, project progress (git version control) and findings.
 
-
-##### Assignment objectives
-The assignment details the numpy.random package, a part of NumPy library for Python.
+ 
+### Assignment Objectives  
+The assignment details the numpy.random package, a part of NumPy library for Python.  
 
 See the Assignment Instructions [here](./ProgDA_Assignment.pdf)
 
@@ -41,7 +42,7 @@ As it is a learning exercise for me, I have made attempt to try and comment vari
  - To learn how to best optimise my time between research, programming, problem-solving and analysis.
 
 
-##### Assignment delivery
+### Assignment delivery
 The project is stored in this GitHub [repository] (https://github.com/Lynch08/numpy-random-investigation).
 
 This README.md file contains background information and introduction to the assignment.
@@ -54,12 +55,12 @@ For viewing the notebook online, it is recommended to use Jupyter Notebooks view
 
 
 
-##### View Notebook in Static Format
+### View Notebook in Static Format
 
 If you wish to view the notebook in static (uneditable) format click here:  
 [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Lynch08/numpy-random-investigation/blob/main/numpy-random.ipynb)
 
-##### How to download this repository
+### How to download this repository (editable version)
 
 - Go to GitHub.
 - Go to my repository: https://github.com/Lynch08/numpy-random-investigation
@@ -68,7 +69,7 @@ If you wish to view the notebook in static (uneditable) format click here:
 - You will need to navigate to this folder location on the command line in order to run the program.
 - Details on how to run each individual script in this repository is included later in this Readme file.
 
-##### Running the Jupyter Notebook
+### Running the Jupyter Notebook
 
  - On the command line navigate to the folder location where the repository has been downloaded and saved to using the cd command to change directory.
  - Type jupyter lab on the command line and press enter
@@ -79,10 +80,23 @@ If you wish to view the notebook in static (uneditable) format click here:
  - To change between edit and read mode at any time press the ESC key.
  - When you have finished viewing the jupyter notebook close the web browser and return to the command line. Press Ctrl + C on the command line to kill the program.
 
+### Dependancies 
+
+**Required**
+- Download Python environment - I recommend ([Anaconda](https://www.anaconda.com/products/individual)) 
+    - Libraries to import within the python environment (all are linked to offical documentation)
+        - [Numpy](https://numpy.org/doc/)
+        - [Pandas](https://pandas.pydata.org/docs/)
+        - [Scipy](https://scipy.github.io/devdocs/index.html)
+        - [matplotlib.pyplot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html)
+        - [Seaborn](https://seaborn.pydata.org/)
+        
+
+**Not required but helpful**
+cmder - this is a command line emulator that in my opinion is easier to use and cleaner than the windows cmd window. [Download Cmder Here](https://cmder.net/)
 
 
-
-**Python and the Libraries Used**
+### Python and the Libraries Used
 Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Its natural functionality has been extended by development of external libraries dedicated for specific purposes. Below are listed several python libraries I used for accomplishment of this project.
 
 - Numpy: NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
@@ -92,5 +106,73 @@ Python is an interpreted, object-oriented, high-level programming language with 
  - Matplotlib: Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
 
  - Seaborn: Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+ 
+ - SciPy: SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
 
- - The assignment has been carried out on Numpy version 1.20.1 ( last updated on 15-11-2021).
+ - The assignment has been carried out on Numpy version 1.20.1 ( last updated on 20-11-2021).
+ 
+ 
+### Notebook Structure
+ 
+The nootbook is broken down into 9 sections.  
+In the first two sections I go through a brief explaination of what I understand the numpy library to be and its history.  
+Then I explain how to install Numpy (once the dependencies above have been met) and link to the documentation if required.  
+I then dive into the funtionality and tools in the library. First looking at what random data is and how to generate different types.  
+Then I look at how that data can be manipuated usinge permutations and then how it can be interpreted and analysed using different distributions.  
+I look at the seed and discuss if random data is really random, and how to make your work with a random number generator reproducable.  
+Finally I cite the sources I used to put the notebook together.
+
+##### See the Table Of Contents below
+
+**1. What is Numpy**
+    - 1.1 Arrays
+    - 1.2 Popular-uses-for-Numpy  
+    
+**2. A Brief History of Numpy**
+
+**3. Installing NumPy**
+    - 3.1 Importing Libraries and NumPy version check  
+    
+**4. Simple Random Data**
+    - 4.1 Random Sampling is really pseudo random!!!!  
+    
+**5. Generating "Random" Data**
+    - 5.1 numpy.random.rand
+         - 5.1.1 Visualisation of rand using pyplot (uniform distribution)
+    - 5.2 numpy.random.randn
+        - 5.2.1 Visualisation of randn using pyplot (normal distribution)
+    - 5.3 numpy.random.randint
+    - 5.4 numpy.random.generator.choice
+        - 5.4.1 Assigning Probability
+    - 5.5 numpy.random.RandomState.bytes
+    - 5.6 numpy.random.Generator.integers - and a simple plot  
+    
+**6. Permutations**
+    - 6.1 Function random.shuffle
+        - 6.1.1 Using shuffle with a multi dimensional array
+    - 6.2 Function random.permutation  
+    
+**7. Distributions**
+    - 7.1 Uniform Distribution
+        - 7.1.1 Visualising Uniform Distributions
+    - 7.2 Binomial Distribution
+        - 7.2.1 What is a Binomial Distribution? Real Life Examples
+        - 7.2.2 Visualisation of Binomial Distribution
+        - 7.2.3 Binomal vs Normal Distribution
+    - 7.3 The Poisson Distribution
+        - 7.3.1 Assumptions of the Poisson Distribution
+        - 7.3.2 Probability Mass Function (PMF)
+        - 7.3.3 Poisson distribution in Numpy
+        - 7.3.4 Visualisation of Poisson Distribution
+        - 7.3.5 Normal Distribution vs Poisson Distribution
+        - 7.3.6 Poisson Distribution vs Binomial Distribution
+    - 7.4 Exponential Distribution
+        - 7.4.1 Visualisation of Exponential Distribution
+    - 7.5 Hypergeometric Distribution  
+    
+**8. Seed**
+    - 8.1 Random or Pseudo Random??
+    - 8.2 Why would we need to "SEED" data from an RNG???
+    - 8.3 Using the Seed
+
+**9. Citations**
