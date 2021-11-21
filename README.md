@@ -134,6 +134,7 @@ I look at the seed and discuss if random data is really random, and how to make 
 Finally I cite the sources I used to put the notebook together.
 
 ##### See the Table Of Contents below
+Table of contents is also at the top of the notebook.
 
 1. What is Numpy
     - 1.1 Arrays  
