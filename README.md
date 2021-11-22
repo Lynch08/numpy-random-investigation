@@ -45,7 +45,7 @@ This project is intended to further familiarisation with data analytics. It is a
 As it is a learning exercise for me, I have made attempt to try and comment various functionalities not only for readability but also for my future reference.
 
 **Planned Project Outcomes**
- - To gain expierence in project time management by break the project down into small manageable tasks.  
+ - To gain experience in project time management by break the project down into small manageable tasks.  
  - To gain an understanding of the functionality of the NumPy library and how some of its functions work, such as the seed.
  - To integrate the skills I had acquired in my first semester with the first 10 weeks of the Programming in Data Analysis module to analyse the library and present a cohesieve and interesting project.  
  - To expand my knowledge of the python libraries and tools to make the code as simple and readable as possible for the reader.  
@@ -82,20 +82,20 @@ If you wish to view the notebook in static (uneditable) format click here:
  - Type jupyter lab on the command line and press enter
  - After a short wait jupyter notebook will open in your web browser (I would suggest Chrome).
  - Open the numpy.random.ipynb notebook in the browser and the notebook containing the code and comments that I wrote for this assignment will be displayed.
- - Before beginning I would suggest going to the Kernal option on the menu bar and if you want to run the notebook yourself choose "Restart Kernal and Clear Outputs". If you want the notebook to run automatically choose "Restart Kernal and Run All Cells"
+ - Before beginning I would suggest going to the Kernel option on the menu bar and if you want to run the notebook yourself choose "Restart Kernel and Clear Outputs". If you want the notebook to run automatically choose "Restart Kernel and Run All Cells"
  - If you want to run the code in any particular cell, click into the cell, hold down the shift key, press enter and the command will run and the output wil be displayed in the next cell.
  - To change between edit and read mode at any time press the ESC key.
  - When you have finished viewing the jupyter notebook close the web browser and return to the command line. Press Ctrl + C on the command line to kill the program.
 
 ### Dependancies 
 
-I have a requirements.txt file that you can use to install all of the dependancies required to run the notebook in the exact same environment - however below are the main dependancies if you would like to do that manually. After cloning the repository navigate to the folder using the command prompt and use the ```pip install``` command if you want to use the requirments.txt file.
+I have a requirements.txt file that you can use to install all of the dependencies required to run the notebook in the exact same environment - however below are the main dependencies if you would like to do that manually. After cloning the repository navigate to the folder using the command prompt and use the ```pip install``` command if you want to use the requirments.txt file.
 See this video for full instructions on how to install: https://www.youtube.com/watch?v=mBcmdcmZXJg 
 
 
 **Required**
 - Download Python environment - I recommend ([Anaconda](https://www.anaconda.com/products/individual)) 
-    - Libraries to import within the python environment (all are linked to offical documentation)
+    - Libraries to import within the python environment (all are linked to official documentation)
         - [Numpy](https://numpy.org/doc/)
         - [Pandas](https://pandas.pydata.org/docs/)
         - [Scipy](https://scipy.github.io/devdocs/index.html)
@@ -126,11 +126,11 @@ Python is an interpreted, object-oriented, high-level programming language with 
 ### Notebook Structure
  
 The notebook is broken down into 9 sections.  
-In the first two sections I go through a brief explaination of what I understand the numpy library to be and its history.  
+In the first two sections I go through a brief explanation of what I understand the numpy library to be and its history.  
 Then I explain how to install Numpy (once the dependencies above have been met) and link to the documentation if required.  
-I then dive into the funtionality and tools in the library. First looking at what random data is and how to generate different types.  
-Then I look at how that data can be manipuated usinge permutations and then how it can be interpreted and analysed using different distributions.  
-I look at the seed and discuss if random data is really random, and how to make your work with a random number generator reproducable.  
+I then dive into the functionality and tools in the library. First looking at what random data is and how to generate different types.  
+Then I look at how that data can be manipulated using permutations and then how it can be interpreted and analysed using different distributions.  
+I look at the seed and discuss if random data is really random, and how to make your work with a random number generator reproducible.  
 Finally I cite the sources I used to put the notebook together.
 
 ##### See the Table Of Contents below
