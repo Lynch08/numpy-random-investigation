@@ -65,7 +65,7 @@ In the notebook I have conducted the research and described the assignment progr
 ### View Notebook in Static Format(Online)
 
 If you wish to view the notebook in static (uneditable) format click here:  
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Lynch08/numpy-random-investigation/blob/main/numpy-random.ipynb)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/Lynch08/numpy-random-investigation/blob/86648f030548ae171d294aa48f19e1ac12f80650/numpy-random.ipynb)
 
 ### How to download this repository (editable version)
 
